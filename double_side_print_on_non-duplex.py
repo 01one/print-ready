@@ -1,6 +1,11 @@
 # this program depends on pyMuPDF
 # pip install PyMuPDF
 
+# The consideration.. This program currently does not use ocr… 
+# So if the page text are scanned or image.. it may add top of the page "this page intentionally left blank"
+# To fix this.. you need to integrate ocr.. of custom blank page detector..
+
+
 import tkinter as tk
 from tkinter import ttk, filedialog, messagebox
 import fitz
